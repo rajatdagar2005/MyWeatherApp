@@ -13,6 +13,14 @@ This **Weather App** is built using **Kotlin and Jetpack Compose**, following th
 - 🖼️ **Coil** for image loading.
 - 🚨 **Try-Catch & Throw** for error handling.
 
+
+## 🛠️ Technologies Used
+Kotlin with Jetpack Compose
+Retrofit 2 for API calls
+LiveData for state management
+Sealed classes for API response handling
+Coil for image loading
+
 ## 📦 Dependencies
 Add the following dependencies in your `build.gradle`:
 ```gradle
@@ -30,9 +38,3 @@ cd weather-app
 
 <uses-permission android:name="android.permission.INTERNET" />
 
-## 🛠️ Technologies Used
-Kotlin with Jetpack Compose
-Retrofit 2 for API calls
-LiveData for state management
-Sealed classes for API response handling
-Coil for image loading
