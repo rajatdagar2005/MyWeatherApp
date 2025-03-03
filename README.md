@@ -15,11 +15,11 @@ This **Weather App** is built using **Kotlin and Jetpack Compose**, following th
 
 
 ## 🛠️ Technologies Used
-Kotlin with Jetpack Compose
-Retrofit 2 for API calls
-LiveData for state management
-Sealed classes for API response handling
-Coil for image loading
+- Kotlin with Jetpack Compose
+- Retrofit 2 for API calls
+- LiveData for state management
+- Sealed classes for API response handling
+- Coil for image loading
 
 ## 📦 Dependencies
 Add the following dependencies in your `build.gradle`:
