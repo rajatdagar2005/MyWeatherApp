@@ -1,21 +1,20 @@
-
-### **README.md**
-```md
 # 🌦️ Weather App - Android (Kotlin, Jetpack Compose)
 
 ## 📌 Overview
-This is a simple **Weather App** built with **Kotlin and Jetpack Compose**, following the **MVVM** architecture. The app fetches real-time weather data using **Retrofit 2** for API integration, displays it using **Jetpack Compose UI**, and handles errors with **try-catch and throw**.
+This **Weather App** is built using **Kotlin and Jetpack Compose**, following the **MVVM architecture**. It integrates with a weather API using **Retrofit 2**, handles errors using **try-catch and throw**, and displays weather data using **Jetpack Compose UI components**. The app efficiently loads images using **Coil** and updates UI reactively with **LiveData**.
 
 ## 🛠️ Features
-- **MVVM Architecture** for better separation of concerns.
-- **Retrofit 2** for API integration.
-- **Sealed Classes** for managing API responses.
-- **LiveData** for reactive UI updates.
-- **Coil** for efficient image loading.
-- **Try-Catch & Throw** for error handling.
-- **Card UI** for better UI presentation.
+- 📌 **MVVM Architecture** for structured code.
+- 🌐 **Retrofit 2** for API integration.
+- 🔄 **LiveData** for real-time UI updates.
+- 🔒 **Sealed Classes** for API response handling.
+- ⚡ **Suspend Functions** for efficient network calls.
+- 🎨 **Jetpack Compose UI** with **Card** components.
+- 🖼️ **Coil** for image loading.
+- 🚨 **Try-Catch & Throw** for error handling.
 
 ## 📦 Dependencies
+Add the following dependencies in your `build.gradle`:
 ```gradle
 val retrofitVersion = "2.11.0"
 
@@ -24,40 +23,16 @@ implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
 
 implementation("androidx.compose.runtime:runtime-livedata:1.7.8")
 implementation("io.coil-kt:coil-compose:2.6.0")
-```
 
-## 📜 Permissions
-Ensure you have **Internet permission** in `AndroidManifest.xml`:
-```xml
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+
+
 <uses-permission android:name="android.permission.INTERNET" />
-```
-
-## 🔧 Setup Instructions
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/weather-app.git
-   cd weather-app
-   ```
-2. Open in **Android Studio**.
-3. Add your **Weather API Key** in the necessary files.
-4. Build and run the app on an emulator or physical device.
-
-## 📷 Screenshots
-*(Add screenshots of your app here)*
 
 ## 🛠️ Technologies Used
-- **Kotlin** with **Jetpack Compose**
-- **Retrofit 2** for API requests
-- **LiveData** for state management
-- **Sealed classes** for handling API responses
-- **Coil** for image loading
-
-## 👨‍💻 Author
-[Your Name](https://github.com/your-username)
-
----
-
-⭐ Feel free to **fork** and **contribute**! 🚀
-```
-
-Replace `"your-username"` and `"your name"` with your actual GitHub details. Let me know if you need any modifications! 🚀
+Kotlin with Jetpack Compose
+Retrofit 2 for API calls
+LiveData for state management
+Sealed classes for API response handling
+Coil for image loading
