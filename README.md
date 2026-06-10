@@ -3,7 +3,7 @@
 ## 📌 Overview
 This **Weather App** is built using **Kotlin and Jetpack Compose**, following the **MVVM architecture**. It integrates with a weather API using **Retrofit 2**, handles errors using **try-catch and throw**, and displays weather data using **Jetpack Compose UI components**. The app efficiently loads images using **Coil** and updates UI reactively with **LiveData**.
 
-
+# INTERN ID - CITS3952 (RAJAT DAGAR)
 
 <img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/43787da9-c066-40fc-9bca-6daea81d61f2" /> <img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/44829a28-00cc-4656-b2e7-eddd5236dee1" />
 
